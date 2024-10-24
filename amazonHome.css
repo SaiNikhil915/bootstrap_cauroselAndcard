@@ -1,0 +1,53 @@
+/* Custom styles for the page */
+.navbar-brand img {
+    height: 30px; /* Reduced the height of the Amazon logo */
+    width: auto; /* Ensures the logo maintains its aspect ratio */
+}
+
+/* Carousel item image size adjustments */
+.carousel-item img {
+    height: 200px;
+    width: 200px /* Further reduced the height of the carousel images */
+    object-fit: cover; /* Ensures the image covers the area evenly */
+}
+
+/* Card images size adjustment */
+.card img {
+    height: 150px; /* Reduced height of product images */
+    object-fit: cover; /* Ensures full coverage within the card */
+    width: 100%;
+}
+
+/* Center card content */
+.card-body {
+    text-align: center;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Navigation items margin for better spacing */
+.nav-item {
+    margin-left: 15px;
+}
+
+/* Reduce the size of carousel navigation arrows */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    width: 20px; /* Reduced the size of navigation icons */
+    height: 20px;
+}
